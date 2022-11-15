@@ -9,4 +9,4 @@ lint:
 
 
 test:
-		python -pytest -vv --cov=hello lint.py
+		pytest -vv --cov=lint test.py
